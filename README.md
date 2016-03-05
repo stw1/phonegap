@@ -1,2 +1,2 @@
-# phonegap
+# vitae - Career Ecosystem
 Testing via lynda.com
