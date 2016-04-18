@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<title>San Angelico Museum of Contemporary Art</title>
+	<title>vitae</title>
 	<link rel="stylesheet"  href="css/jquery.mobile.min.css">
 	<style>
 		#homeBanner {
@@ -43,13 +43,14 @@
 	
 <body>
 <div id="homeScreen" data-role="page">
-	<img src="imgs/SAMOCA_banner_1.png" class="banner" />
+	<img src="imgs/business_logo.png" class="banner" />
 	<div data-role="content">
 		<ul data-role="listview" data-inset="true" class="ui-nodisc-icon ui-alt-icon">
-			<li><a href="#currentExhibits" >Current Exhibits</a></li>
-			<li><a href="#pastExhibits">Past Exhibits</a></li>
-			<li><a href="">Calendar of Events</a></li>
-			<li><a href="#discoverScreen">[ Discover ]</a></li>
+			<li><a href="#profile">My Profile</a></li>
+			<li><a href="#documents">Documents</a></li>
+			<li><a href="#searchprep">Job Search Prep</a></li>
+			<li><a href="#messages">Messages</a></li>
+			<li><a href="#resources">Resources</a></li>
 
 		</ul>
 		<div class="ui-grid-a center">
@@ -62,37 +63,45 @@
 		</div>
 	</div>
 </div>
-<div id="currentExhibits" data-role="page">
+<div id="documents" data-role="page">
 	<header data-role="header" data-position="fixed" data-id="appHeader">
-		<h1>SAMOCA</h1>
+		<h1>Profile</h1>
 		<a href="#homeScreen" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-btn-left ui-nodisc-icon ui-alt-icon">Back</a>
 	</header>
 	<div data-role="content">
-		<h1 class="center">Current Exhibits</h1>
+		<h1 class="center">Welcome back</h1>
 		<ul data-role="listview" data-inset="false" class="ui-nodisc-icon ui-alt-icon">
 			<li><a href="#"><img src="imgs/Westhoff_thumb.png">
-				<h2>Siobhan Westhoff</h2>
-				<p>Final Weeks</p></a>
+				<h2>Resume</h2>
+				</a>
 			</li>
-			<li><a href="#"><img src="imgs/101733188_thumb.png">
-				<h2>RED</h2>
-				<p>Eleanor Friosh</p></a>
+			<li><a href="#documents-coverletters"><img src="imgs/101733188_thumb.png">
+				<h2>Cover Lettters</h2>
+				</a>
 			</li>
 			<li><a href="#"><img src="imgs/106588354_thumb.png">
-				<h2>Imbalanced</h2>
-				<p>Simone Best, Sheldon Crane, and Elizabeth Moore</p></a>
+				<h2>Interviews</h2>
+				</a>
 			</li>
 			<li><a href="#"><img src="imgs/924520721_thumb.png">
-				<h2>Morten Rand-Hendriksen</h2>
-				<p>The Untitled Collection</p></a>
+				<h2>Jobs</h2>
+				</a>
 			</li>
-			<li><a href="#"><img src="imgs/Vision_thumb.png">
-				<h2>VISION</h2>
-				<p>New Works from the SAMOCA Permanent Collection</p></a>
-			</li>
-			<li><a href="#"><img src="imgs/Watching_thumb.png">
-				<h2>Paul Shellmont: Bird Watching</h2>
-				<p>Upcoming Exhibition</p></a>
+		</ul>
+	</div>
+</div>
+
+<div id="searchprep" data-role="page">
+	<header data-role="header" data-position="fixed" data-id="appHeader">
+		<h1>Profile</h1>
+		<a href="#homeScreen" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-btn-left ui-nodisc-icon ui-alt-icon">Back</a>
+	</header>
+	<div data-role="content">
+		<h1 class="center">Welcome back</h1>
+		<ul data-role="listview" data-inset="false" class="ui-nodisc-icon ui-alt-icon">
+			<li><a href="#searchprep-missionstatement"><img src="imgs/101733188_thumb.png">
+				<h2>Personal Career Mission Statement</h2>
+				</a>
 			</li>
 		</ul>
 	</div>
@@ -121,13 +130,13 @@
 	
 <div id="mapScreen" data-role="page">
 	<header data-role="header" data-position="fixed" data-id="appHeader">
-		<h1>SAMOCA</h1>
+		<h1>vitae</h1>
 		<a href="#homeScreen" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-btn-left ui-nodisc-icon ui-alt-icon">Back</a>
 	</header>
 	<div data-role="content">
-		<h2 class="center">San Angelico Museum of Contemporary Art</h2>
-		<p class="center">123 Main Street Ventura, CA 12345<br>(800)555-1212</p>
-		<div id="map2"><img src="imgs/map.png" /></div>
+		<h2 class="center">Silcon Valley</h2>
+		<p class="center">123 Main Street Silcon Valley, CA 99999<br>(888)555-1234</p>
+		<div id="map2"><img src="imgs/silcon_valley.png" /></div>
 	</div>
 </div>
 
@@ -144,21 +153,46 @@
 	</div>
 </div>
 
-<div id="aboutScreen" data-role="page">
+<div id="searchprep-missionstatement" data-role="page">
 	<header data-role="header" data-position="fixed" data-id="appHeader">
-		<h1>SAMOCA</h1>
+		<h1>Mission Statement</h1>
 		<a href="#homeScreen" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-btn-left ui-nodisc-icon ui-alt-icon">Back</a>
 	</header>
 	<div data-role="content">
-		<h2 class="center">San Angelico Museum of Contemporary Art</h2>
-		<h3 class="center">Celebrating the Best of Modern Art</h3>
-		<img class="center banner" src="imgs/Museum.png" />
-		<p>SAMOCA (San Angelico Museum of Contemporary Art) is an art museum with a focus on modern art from the last 75 years. Since its inception in 1973, the museum has been the leader of modern contemporary design. SAMOCA is located in the heart of Ventura, ninety miles north of Los Angeles in Southern California.</p>
+		<h2 class="center">Develop Your Personal Career Mission Statement</h2>
+		<p>Almost every major company has a mission statement. A mission statement is a short, descriptive statement of the common objective and focus of the organization. It is their purpose for existence.</p>
 
-		<p>SAMOCA was established to promote the celebration of modern art in many forms including visual and performing arts, music, and crafts – with collections that are suitable for the entire family. The museum focuses on the unique talents and accomplishments of up-and-coming artists found within the forward-thinking California community and beyond.</p>
+		<p>In developing your personal career focus, take the time to prepare your personal career mission statement. It will help you in crystallizing your vision of who you are and where you want to go in your career. Keep your career mission statement limited to no more than two sentences and no more than thirty words. Begin your statement with the words, "My personal career mission is…" and finish with qualifying words and phrases to describe your mission. Following are some examples:</p>
 
-		<p>Our collections are designed to highlight the importance of contemporary art within modern society. Important influences, such as pop, cinema, and current events, permeate our halls. Through our diverse collections, events, and with the support of our patrons and volunteers, the museum helps to promote the importance of modern art around the world.</p>
-		<p class="center">123 Main Street Ventura, CA 12345 (800) 555-1212</p>
+		<ul>
+			<li>"My personal career mission is to become a world-class aeronautical engineer in the commercial aviation industry."</li>
+			<li>"My personal career mission is to gain experience in the public accounting field toward earning my CPA designation."</li>
+			<li>"My personal career mission is to master the leading Web development tools and become a best-in-class Web Developer."</li>
+		</ul>
+
+		<p>Your personal mission statement should be tightly focused toward the first three to five years of your career. You can give specifics about the job type and/or industry, as appropriate. This personal career mission statement will form the foundation of your career focus and will guide you toward successful completion of your entry level job search. The material developed here will be utilized again in the development of your resume and cover letter, in interviewing, and in all future job search contacts.
+		</p>
+		
+		<p>A mental conception of your personal career mission statement is not enough. You must write it down on paper. Then tape it up on your wall—ideally, where you can see it every day. Or, better yet, on your bathroom mirror, so you see it and review it each morning. And if it needs to be changed or modified over time, continue to make changes. But keep your career mission statement in sharp focus in your mind. As you zero in on your larger goal, your short-term goals will also become clearer.
+		</p>	
+	</div>
+</div>
+
+
+<div id="aboutScreen" data-role="page">
+	<header data-role="header" data-position="fixed" data-id="appHeader">
+		<h1>Our Story</h1>
+		<a href="#homeScreen" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-btn-left ui-nodisc-icon ui-alt-icon">Back</a>
+	</header>
+	<div data-role="content">
+		<h2 class="center">vitae</h2>
+		<h3 class="center">You are your own greatest asset.</h3>
+		<img class="center banner" src="imgs/join-our-team.jpg" />
+		<p>We believe that improving one's own career should be an enjoyable, exciting, and positive experience.  That's why we created vitae, to everyone from job seekers entering the market to industry veterans the support they need to take their careers to new heights.</p>
+
+		<p>vitae (career in Latin) is an business located in Silcon Valley, Ca.  We focus individual careers.  Through constant innovation, unapralleled technology and individual customer care.  vitae helps match the right talent with the right opportunity.</p>
+
+		<p class="center">Tech Central Rd, CA 95000 (888) 555-1234</p>
 	</div>
 </div>
 	<!--
